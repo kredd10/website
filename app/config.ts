@@ -8,9 +8,9 @@ export const metaData = {
 };
 
 export const socialLinks = {
-  twitter: "https://x.com/1tssirius",
+  twitter: "https://x.com/kreddy_manish",
   github: "https://github.com/kredd10",
-  instagram: "https://www.instagram.com/",
+  instagram: "https://www.instagram.com/manish_reddy_25",
   linkedin: "https://www.linkedin.com/in/manishkreddy/",
-  email: "mailto:example@gmail.com",
+  email: "mailto:kreddy.manish@gmail.com",
 };
