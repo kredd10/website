@@ -1,12 +1,7 @@
 import Image from "next/image";
-import { useState } from "react"; // Import useState for collapsible functionality
 import { socialLinks } from "./config";
 
 export default function Page() {
-  // State for managing collapsible sections
-  const [showEducation, setShowEducation] = useState(false);
-  const [showWorkExperience, setShowWorkExperience] = useState(false);
-
   return (
     <section>
       <a href={socialLinks.linkedin} target="_blank">
@@ -45,60 +40,6 @@ export default function Page() {
           Let’s connect and explore how we can collaborate on projects that
           shape the future.
         </p>
-
-        {/* Collapsible Education Section */}
-        <h2>
-          <button
-            className="text-blue-500 underline"
-            onClick={() => setShowEducation(!showEducation)}
-          >
-            {showEducation ? "Hide Education" : "Show Education"}
-          </button>
-        </h2>
-        {showEducation && (
-          <ul>
-            <li>
-              <strong>Master of Science in Computer Science</strong> (Aug 2023 – May 2025) <br />
-              Illinois Institute of Technology, Chicago, IL <br />
-              Focus: Trustworthy Machine Learning, Marketing Strategy, Advanced Databases.
-            </li>
-            <li>
-              <strong>Bachelor of Engineering, Computer Science</strong> (Aug 2019 - Jun 2023) <br />
-              B.N.M. Institute of Technology, Bangalore, India <br />
-              Focus: Machine Learning, Data Science, Software Engineering.
-            </li>
-          </ul>
-        )}
-
-        {/* Collapsible Work Experience Section */}
-        <h2>
-          <button
-            className="text-blue-500 underline"
-            onClick={() => setShowWorkExperience(!showWorkExperience)}
-          >
-            {showWorkExperience ? "Hide Work Experience" : "Show Work Experience"}
-          </button>
-        </h2>
-        {showWorkExperience && (
-          <ul>
-            <li>
-              <strong>Genisys Venture Analyst</strong> (Dec 2024 – Present) <br />
-              Kaplan Institute, Chicago, IL <br />
-              Conducted market analysis and created investment strategies for AI and computing.
-            </li>
-            <li>
-              <strong>Founder & CEO</strong> (Dec 2023 – Sep 2024) <br />
-              H2.0 Resilience, Chicago, IL <br />
-              Developed an explainable AI tool for flood risk mitigation, reducing evaluation time by 90%.
-            </li>
-            <li>
-              <strong>Machine Learning Research Intern</strong> (Jan 2023 – Jul 2023) <br />
-              VIGA Entertainment, Bangalore, India <br />
-              Led the "Face Solver" project, creating a real-time 3D animation system using Google MediaPipe.
-            </li>
-          </ul>
-        )}
-
         <p>
           Built and maintained by{" "}
           <a href={socialLinks.linkedin} target="_blank">
@@ -109,4 +50,4 @@ export default function Page() {
       </div>
     </section>
   );
-}
+} 
