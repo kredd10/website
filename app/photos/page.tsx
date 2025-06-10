@@ -16,56 +16,118 @@ export default function Photos() {
         images={[
           {
             src: "/photos/photo1.jpg",
-            alt: "Roman columns",
-            href: "https://unsplash.com/photos/people-walking-near-building-during-daytime-dFLBDQQeffU?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            alt: "Merchandise Mart",
+            href: "https://unsplash.com/photos/89Jq4K84UhM",
           },
           {
             src: "/photos/photo2.jpg",
-            alt: "Big Ben",
-            href: "https://unsplash.com/photos/big-ben-london-MdJq0zFUwrw?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            alt: "Water Taxi",
+            href: "https://unsplash.com/photos/lZtVnJOMbo4",
           },
           {
             src: "/photos/photo3.jpg",
-            alt: "Sacré-Cœur Basilica",
-            href: "https://unsplash.com/photos/a-view-of-the-inside-of-a-building-through-a-circular-window-Tp-3hrx88J4",
+            alt: "Chicago River",
+            href: "https://unsplash.com/photos/rCacFxx2XPY",
           },
           {
-            src: "/photos/photo4.jpg",
-            alt: "Eiffel Tower",
-            href: "https://unsplash.com/photos/the-eiffel-tower-towering-over-the-city-of-paris-OgPuPvPsHLM?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            src: "/photos/photo9.jpg",
+            alt: "River tour",
+            href: "https://unsplash.com/photos/YigehSHcJjU",
           },
           {
-            src: "/photos/photo5.jpg",
-            alt: "Taj Mahal",
-            href: "https://unsplash.com/photos/taj-mahal-india-IPlPkWPJ2fo",
+            src: "/photos/photo10.jpg",
+            alt: "Chicago river",
+            href: "https://unsplash.com/photos/lrWlYfJ6oNg",
           },
           {
             src: "/photos/photo6.jpg",
-            alt: "Colosseum",
-            href: "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-3cyBR1rIJmA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            alt: "Clark Street Chicago River",
+            href: "https://unsplash.com/photos/x35C5dTLUPk",
+          },
+          {
+            src: "/photos/photo7.jpg",
+            alt: "Chicago Architecture",
+            href: "https://unsplash.com/photos/mJNRUY9oZ8w",
+          },
+          {
+            src: "/photos/photo8.jpg",
+            alt: "Water taxi crossing",
+            href: "https://unsplash.com/photos/S4qgTpD0vXk",
+          },
+          {
+            src: "/photos/photo11.jpg",
+            alt: "Wrigley and Tribune from Chicago river",
+            href: "https://unsplash.com/photos/59FzB4ldFVk",
+          },
+          {
+            src: "/photos/photo12.jpg",
+            alt: "Tribune and Wrigley from Millennium Park",
+            href: "https://unsplash.com/photos/59FzB4ldFVk",
           },
         ]}
       />
 
+      <h2 className="mt-16 mb-8 text-xl font-medium tracking-tight">Chicago Architecture (2-column layout)</h2>
       <ImageGrid
         columns={2}
         images={[
-          { src: "/photos/photo1.jpg", alt: "Roman columns" },
-          { src: "/photos/photo2.jpg", alt: "Big Ben" },
-          { src: "/photos/photo3.jpg", alt: "Sacré-Cœur Basilica" },
-          { src: "/photos/photo4.jpg", alt: "Eiffel Tower" },
+          {
+            src: "/photos/photo1.jpg",
+            alt: "Merchandise Mart",
+            href: "https://unsplash.com/photos/89Jq4K84UhM",
+          },
+          {
+            src: "/photos/photo2.jpg",
+            alt: "Water Taxi",
+            href: "https://unsplash.com/photos/lZtVnJOMbo4",
+          },
+          {
+            src: "/photos/photo3.jpg",
+            alt: "Chicago River",
+            href: "https://unsplash.com/photos/rCacFxx2XPY",
+          },
+          {
+            src: "/photos/photo9.jpg",
+            alt: "River tour",
+            href: "https://unsplash.com/photos/YigehSHcJjU",
+          },
         ]}
       />
 
+      <h2 className="mt-16 mb-8 text-xl font-medium tracking-tight">Chicago Skyline (4-column layout)</h2>
       <ImageGrid
         columns={4}
         images={[
-          { src: "/photos/photo1.jpg", alt: "Roman columns" },
-          { src: "/photos/photo2.jpg", alt: "Big Ben" },
-          { src: "/photos/photo3.jpg", alt: "Sacré-Cœur Basilica" },
-          { src: "/photos/photo4.jpg", alt: "Eiffel Tower" },
-          { src: "/photos/photo5.jpg", alt: "Taj Mahal" },
-          { src: "/photos/photo6.jpg", alt: "Colosseum" },
+          {
+            src: "/photos/photo10.jpg",
+            alt: "Chicago river",
+            href: "https://unsplash.com/photos/lrWlYfJ6oNg",
+          },
+          {
+            src: "/photos/photo6.jpg",
+            alt: "Clark Street Chicago River",
+            href: "https://unsplash.com/photos/x35C5dTLUPk",
+          },
+          {
+            src: "/photos/photo7.jpg",
+            alt: "Chicago Architecture",
+            href: "https://unsplash.com/photos/mJNRUY9oZ8w",
+          },
+          {
+            src: "/photos/photo8.jpg",
+            alt: "Water taxi crossing",
+            href: "https://unsplash.com/photos/S4qgTpD0vXk",
+          },
+          {
+            src: "/photos/photo11.jpg",
+            alt: "Wrigley and Tribune from Chicago river",
+            href: "https://unsplash.com/photos/59FzB4ldFVk",
+          },
+          {
+            src: "/photos/photo12.jpg",
+            alt: "Tribune and Wrigley from Millennium Park",
+            href: "https://unsplash.com/photos/59FzB4ldFVk",
+          },
         ]}
       />
     </section>

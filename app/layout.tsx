@@ -55,6 +55,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={cx(GeistSans.variable, GeistMono.variable)}>
       <head>
+        {/* RSS feed links temporarily hidden
         <link
           rel="alternate"
           type="application/rss+xml"
@@ -73,6 +74,7 @@ export default function RootLayout({
           href="/feed.json"
           title="JSON Feed"
         />
+        */}
       </head>
       <body className="antialiased flex flex-col items-center justify-center mx-auto mt-2 lg:mt-8 mb-20 lg:mb-40">
         <ThemeProvider
