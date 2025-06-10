@@ -17,28 +17,21 @@ export default function Page() {
       </a>
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Hi, I’m Manish K Reddy!
+        Hi, I'm Manish K Reddy!
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I’m a Venture Analyst and entrepreneur with a passion for identifying
-          transformative opportunities and building impactful solutions.
+          I translate cutting-edge technology into real-world impact as a <strong>Google Summer of Code contributor, venture analyst, and deep tech entrepreneur</strong>.
         </p>
         <p>
-          My journey combines a strong foundation in computer science with hands-on
-          experience in startups, deep tech commercialization, and strategic market
-          analysis. I specialize in evaluating emerging technologies, supporting
-          innovative startups, and driving growth through analytical rigor and
-          customer-focused strategies.
+          With a strong foundation in <strong>computer science</strong> and hands-on experience across <strong>AI/ML, cloud-native deployments, and startup strategy</strong>, I've helped build and evaluate transformative technologies. My work spans critical areas like <strong>flood resilience, cybersecurity, and productivity tooling</strong>. I thrive at the intersection of engineering and venture—where research meets execution.
         </p>
         <p>
-          When I’m not immersed in my work, I enjoy running, organizing events,
-          and exploring ideas that bring people together for meaningful causes.
+          Outside of my professional pursuits, I'm an avid runner, community event curator, and dedicated builder.
         </p>
         <p>
-          Let’s connect and explore how we can collaborate on projects that
-          shape the future.
+          Let’s connect if you’re building something bold or want to discuss deep tech, AI, or venture.
         </p>
         <p>
           Built and maintained by{" "}
