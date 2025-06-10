@@ -5,7 +5,7 @@ import {
   FaXTwitter,
   FaGithub,
   FaInstagram,
-  FaRss,
+  // FaRss,  // Temporarily hidden
   FaLinkedinIn,
 } from "react-icons/fa6";
 import { TbMailFilled } from "react-icons/tb";
@@ -29,9 +29,11 @@ function SocialLinks() {
       <SocialLink href={socialLinks.instagram} icon={FaInstagram} />
       <SocialLink href={socialLinks.linkedin} icon={FaLinkedinIn} />
       <SocialLink href={socialLinks.email} icon={TbMailFilled} />
+      {/* RSS feed link temporarily hidden
       <a href="/rss.xml" target="_self">
         <FaRss />
       </a>
+      */}
     </div>
   );
 }

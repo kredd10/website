@@ -29,6 +29,12 @@ export const publications: Publication[] = [
 
 export const projects: Project[] = [
   {
+    title: "Kaplan Finance Storytelling (KapFiS)",
+    year: 2025,
+    description: "Pioneered KapFiS, an interactive AI Financial Storytelling coach, leveraging LangGraph and Gemini API. This innovative solution empowers startups to craft compelling financial narratives, integrating advanced database management, strategic few-shot prompting, and sophisticated agentic behaviors to enhance business communication and secure funding.",
+    url: "https://www.kaggle.com/code/manishkreddy/kapfis-financial-story-coach"
+  },
+  {
     title: "Adversarial Attack on Local LLMs (LARF)",
     year: 2024,
     description:
@@ -42,11 +48,5 @@ export const projects: Project[] = [
       "Designed and implemented a pipeline integrating Google MediaPipe with game engine functionalities, achieving sub-2-second latency from input capture to display for real-time, AI-driven 3D facial motion capture across multiple subjects.",
     url: "https://drive.google.com/file/d/1vCJ0_mewhgfF8m9jApNxOuAsxBaK3wl7/view?usp=sharing",
   },
-  {
-    title: "Literature Survey on Tracking Template Face Mesh Using Stereo Video",
-    year: 2023,
-    description:
-      "Researched and evaluated 2D and 3D facial motion capture techniques, identifying limitations and proposing solutions to enable real-time, accessible applications in public settings.",
-    url: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003363781-48/literature-survey-tracking-template-face-mesh-using-stereo-video-kavitha-jayaram-ameer-suhail-aneesh-acharya-manish-reddy-mohammed-raheel",
-  },
+
 ];

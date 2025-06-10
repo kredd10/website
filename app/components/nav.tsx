@@ -8,8 +8,8 @@ const navItems = {
   "/photos": { name: "Photos" },
   "/academics": { name: "Academics" },
   "/resume": { name: "Resume" },
-  "/news": { name: "News" },
-  "/misc": { name: "Misc" },
+  // "/news": { name: "News" },  // Temporarily hidden
+  // "/misc": { name: "Misc" },  // Temporarily hidden
 };
 
 export function Navbar() {
