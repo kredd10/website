@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import { projects } from "./project-data";
+import { projects, publications } from "./project-data";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -11,7 +11,9 @@ export default function Projects() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Projects</h1>
-      <div className="space-y-6">
+      
+      {/* Projects Section */}
+      <div className="space-y-6 mb-10">
         {projects.map((project, index) => (
           <a
             key={index}
@@ -35,6 +37,18 @@ export default function Projects() {
             </div>
           </a>
         ))}
+      </div>
+      
+      {/* Publications Section */}
+      <div className="mt-12">
+        <h2 className="mb-4 text-xl font-medium tracking-tight">Publications</h2>
+        <div className="prose prose-neutral dark:prose-invert">
+          {publications.map((pub, index) => (
+            <p key={index} className="text-sm mb-4">
+              {pub.authors} ({pub.year}). "{pub.title}". In <em>{pub.conference}</em>, {pub.location}. Available: <a href={pub.url} target="_blank" rel="noopener noreferrer">{pub.publisher}</a>.
+            </p>
+          ))}
+        </div>
       </div>
     </section>
   );

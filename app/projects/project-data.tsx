@@ -5,6 +5,28 @@ export interface Project {
   url: string;
 }
 
+export interface Publication {
+  authors: string;
+  title: string;
+  conference: string;
+  year: number;
+  location: string;
+  publisher: string;
+  url: string;
+}
+
+export const publications: Publication[] = [
+  {
+    authors: "Reddy, M. K., Kavitha, J., Suhail, M. A., Acharya, A., & Raheel, M.",
+    title: "Literature survey on tracking template face mesh using stereo video",
+    conference: "Recent Trends in Computational Sciences: Proceedings of the Fourth Annual International Conference on Data Science, Machine Learning and Blockchain Technology (AICDMB 2023)",
+    year: 2023,
+    location: "Mysuru, India, 16–17 March 2023 (1st ed.)",
+    publisher: "Taylor & Francis - CRC Press",
+    url: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003363781-48/literature-survey-tracking-template-face-mesh-using-stereo-video-kavitha-jayaram-ameer-suhail-aneesh-acharya-manish-reddy-mohammed-raheel"
+  }
+];
+
 export const projects: Project[] = [
   {
     title: "Adversarial Attack on Local LLMs (LARF)",
