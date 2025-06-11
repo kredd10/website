@@ -53,7 +53,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={cx(GeistSans.variable, GeistMono.variable)}>
+    <html lang="en" suppressHydrationWarning className={cx(GeistSans.variable, GeistMono.variable)}>
       <head>
         {/* RSS feed links temporarily hidden
         <link

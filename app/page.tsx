@@ -51,7 +51,16 @@ const AnimatedSection = ({ children, className = "", delay = 0 }) => {
 };
 
 // Timeline Item Component with optional logo
-const TimelineItem = ({ date, title, organization, description, icon: Icon, isLeft = true, isCurrent = false, logo = null }) => {
+const TimelineItem = ({ date, title, organization, description, icon: Icon, isLeft = true, isCurrent = false, logo = null }: {
+  date: string;
+  title: string;
+  organization: string;
+  description: string | string[];
+  icon: React.ComponentType<any>;
+  isLeft?: boolean;
+  isCurrent?: boolean;
+  logo?: React.ReactNode;  // Changed from null to React.ReactNode
+}) => {
   return (
     <div className={`flex flex-col md:flex-row w-full mb-12 ${isLeft ? '' : 'md:flex-row-reverse'}`}>
       {/* Left content for desktop */}
@@ -98,7 +107,7 @@ const TimelineItem = ({ date, title, organization, description, icon: Icon, isLe
       
       {/* Right side - can contain logo for desktop view */}
       <div className="hidden md:block md:w-5/12">
-        {logo && (isLeft || !isLeft) && (
+        {logo && (
           <div className="flex items-center justify-center h-full">
             {logo}
           </div>
